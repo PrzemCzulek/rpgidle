@@ -1,0 +1,53 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idle RPG</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="sidebar"></div>
+    <main>
+        <section id="dashboard">
+            <h1>Witaj, Bohaterze!</h1>
+            <button id="startGameBtn">Start Game</button>
+        </section>
+        <section id="inventory">
+            <div class="inventory-container">
+                <div class="equipment">
+                    <h3>Wyposażenie</h3>
+                    <ul id="equipment-list">
+                        <!-- Sloty wyposażenia będą tutaj -->
+                    </ul>
+                </div>
+                <div class="backpack">
+                    <h3>Plecak</h3>
+                    <ul id="backpack-items">
+                        <!-- Przedmioty w plecaku będą tutaj -->
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <div id="profile"></div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Idle RPG</p>
+    </footer>
+
+    <!-- Modal HTML -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="modal-close" class="close">&times;</span>
+            <h2>Wybierz przedmiot</h2>
+            <ul id="modal-item-list">
+                <!-- Lista przedmiotów będzie tutaj -->
+            </ul>
+        </div>
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>

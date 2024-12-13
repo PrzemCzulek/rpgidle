@@ -1,0 +1,55 @@
+/* equipment.css */
+
+/* Profil Gracza */
+#player-profile {
+    margin: 20px;
+    padding: 20px;
+    background-color: #2e2e2e;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.profile-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-info {
+    width: 60%;
+}
+
+.profile-info p {
+    margin: 8px 0;
+}
+
+.profile-equipment {
+    width: 35%;
+}
+
+.equipment-slots {
+    display: flex;
+    flex-direction: column;
+}
+
+.equipment-slot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.equipment-slot strong {
+    width: 80px;
+}
+
+.equipment-slot .slot-item {
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #444444;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.equipment-slot .slot-item:hover {
+    background-color: #555555;
+}

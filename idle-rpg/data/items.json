@@ -1,0 +1,99 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "name": "Miecz",
+            "type": "Weapon",
+            "rarity": "pospolite",
+            "stats": {
+                "strength": 5,
+                "agility": 2
+            },
+            "equipable": true,
+            "description": "Prosty miecz nadający podstawową siłę ataku."
+        },
+        {
+            "id": 2,
+            "name": "Tarcza",
+            "type": "Shield",
+            "rarity": "pospolite",
+            "stats": {
+                "defense": 5,
+                "energy": 1
+            },
+            "equipable": true,
+            "description": "Solidna tarcza zwiększająca obronę."
+        },
+        {
+            "id": 3,
+            "name": "Łuk",
+            "type": "Weapon",
+            "rarity": "zwykłe",
+            "stats": {
+                "strength": 3,
+                "agility": 5
+            },
+            "equipable": true,
+            "description": "Łuk idealny do walki na odległość."
+        },
+        {
+            "id": 4,
+            "name": "Hełm",
+            "type": "Head",
+            "rarity": "pospolite",
+            "stats": {
+                "defense": 2,
+                "energy": 1
+            },
+            "equipable": true,
+            "description": "Hełm zapewniający ochronę głowy."
+        },
+        {
+            "id": 5,
+            "name": "Zbroja",
+            "type": "Chest",
+            "rarity": "zwykłe",
+            "stats": {
+                "defense": 7,
+                "energy": 2
+            },
+            "equipable": true,
+            "description": "Ciężka zbroja zapewniająca wysoką ochronę."
+        },
+        {
+            "id": 6,
+            "name": "Pierścień Mocy",
+            "type": "Accessory",
+            "rarity": "rzadkie",
+            "stats": {
+                "intelligence": 3,
+                "agility": 1
+            },
+            "equipable": true,
+            "description": "Pierścień zwiększający moc magiczną."
+        },
+        {
+            "id": 7,
+            "name": "Buty Przyspieszenia",
+            "type": "Legs",
+            "rarity": "zwykłe",
+            "stats": {
+                "agility": 3,
+                "energy": 1
+            },
+            "equipable": true,
+            "description": "Buty zwiększające zręczność i szybkość."
+        },
+        {
+            "id": 8,
+            "name": "Księga Zaklęć",
+            "type": "Book",
+            "rarity": "rzadkie",
+            "stats": {
+                "intelligence": 5
+            },
+            "equipable": false,
+            "description": "Księga pełna potężnych zaklęć."
+        }
+    ]
+}

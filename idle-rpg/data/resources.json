@@ -1,0 +1,13 @@
+{
+    "resources": [
+        {
+            "name": "Drewno"
+        },
+        {
+            "name": "Kamień"
+        },
+        {
+            "name": "Żelazo"
+        }
+    ]
+}
